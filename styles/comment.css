@@ -1,0 +1,82 @@
+form,
+input {
+    padding: 0;
+    margin: 5px;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
+    text-align: right;
+    border: 1px solid blueviolet;
+
+}
+
+#comment_title{
+    font-weight: bold;
+}
+
+.testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 3px;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+input:hover,
+textarea:hover {
+    outline: none;
+    border: 1px solid #095484;
+}
+
+.first-name {
+    margin-bottom: 22px;
+}
+
+textarea {
+    width: calc(100% - 6px);
+    text-align: right;
+    padding: 5px;
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+    vertical-align: middle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-block {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}

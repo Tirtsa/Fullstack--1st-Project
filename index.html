@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <title>מ&ת מתכונים ותפריטים</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <nav >
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">בית</a>
+            <a href="#">בשרי</a>
+            <a href="#">חלבי</a>
+            <a href="#">קינוחים</a>
+            <a href="#">ארוחות מהירות</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    
+    <div class="banner-title">
+        <h1>T&M</h1>
+    </div>
+    <div class="contatiner">
+        <a href="./chalavi.html" alt="pasta">
+            <div class="gallery-item">
+                <div class="image-style">
+                    <img src="images/pasta-moukremet.jpg" alt="פסטה">
+                </div>
+                <div class="desc">
+                    <h1>ארוחות חלביות</h1>
+                </div>
+            </div>
+        </a>
+        <a href="./pancack.html" alt="pasta">
+            <div class="gallery-item">
+                <div class="image-style">
+                    <img src="images/pancacke.jpg" alt="פנקייק">
+                </div>
+                <div class="desc">
+                    <h1>קינוחים</h1>
+                </div>
+            </div>
+        </a>
+        <a href="./sandwich.html" alt="pasta">
+            <div class="gallery-item">
+                <div class="image-style">
+                    <img src="images/sandwich.jpg" alt="סנדוויץ">
+                </div>
+                <div class="desc">
+                    <h1>ארוחות בשריות</h1>
+                </div>
+            </div>
+        </a>
+        <a href="pasta.html" alt="pasta">
+            <div class="gallery-item">
+                <div class="image-style">
+                    <img src="images/soap.jpg" alt="">
+                </div>
+                <div class="desc">
+                    <h1>מתכונים מהירים</h1>
+                </div>
+            </div>
+        </a>
+        <a href="pasta.html" alt="pasta">
+            <div class="gallery-item">
+                <div class="image-style">
+                    <img src="images/pancacke.jpg" alt="">
+                </div>
+                <div class="desc">
+                    <h1>פנקייק חלומי</h1>
+                </div>
+            </div>
+        </a>
+        <a href="pasta.html" alt="pasta">
+            <div class="gallery-item">
+                <a target="_blank" href="#"></a>
+                <div class="image-style">
+                    <img src="images/sandwich.jpg" alt="">
+                </div>
+                <div class="desc">
+                    <h1>פנקייק חלומי</h1>
+                </div>
+            </div>
+        </a>
+    </div>
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

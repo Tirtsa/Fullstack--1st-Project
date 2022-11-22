@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פסטה מוקרמת</title>
+    <link href="./styles/recipe_style.css" rel="stylesheet"/>
+    <link href="./styles/nav.css" rel="stylesheet"/>
+    <link href="./comment.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+</head>
+
+<body>
+    <nav >
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">בית</a>
+            <a href="#">בשרי</a>
+            <a href="#">חלבי</a>
+            <a href="#">קינוחים</a>
+            <a href="#">ארוחות מהירות</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    <div id="title">
+        <h2>סנדוויץ' בשרי</h2>
+        <p>כריך עסיסי וקל להכנה</p>
+        <img src="./images/sandwich.jpg" alt="פסטה מוקרמת" />
+    </div>
+
+    <div id="recipe-details">
+        <table>
+            <tr>
+                <th>רמת קושי</th>
+                <th>זמן הכנה</th>
+                <th>מס' מנות</th>
+                <th>סוג</th>
+            </tr>
+            <tr>
+                <td>קל</td>
+                <td>30 דקות</td>
+                <td>2-3</td>
+                <td>בשרי</td>
+            </tr>
+        </table>
+    </div>
+    <div class="video">
+        <iframe  
+            src="https://www.youtube.com/embed/u57qO2NUZuc" 
+            title="How To Make Classic Philly Cheesesteak Sandwich" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+    
+    <div class="grid-container">
+          <h4>:המצרכים</h4>
+            <ul>
+              <li>פסטה מבושלת (כחצי חבילת פסטה, 250 גרם לפני בישול)</li>
+              <li>מיכל שמנת מתוקה/ שמנת לבישול (250 מ”ל)</li>
+              <li>סלסלת פטריות טריות חתוכות גס</li>
+              <li>1 בצל קצוץ דק</li>
+              <li>100 גרם גבינת פרמזן מפוררת</li>
+              <li>100 גרם גבינה צהובה מגורדת</li>
+              <li>תיבול: מלח ופלפל שחור</li>
+            </ul>
+            </ul>
+            <h4>:אופן ההכנה</h4>
+            <p>
+                מטגנים במחבת בצל עד להזהבה.<br>
+                מוסיפים את הפטריות ומטגנים עוד כ-5 דקות.<br>
+                מוסיפים את השמנת, גבינת הפרמזן, מלח ופלפל ומביאים לרתיחה (כשהשמנת מבעבעת).<br>
+                מניחים את הפסטה המבושלת בתבנית בינונית ועליה שופכים את רוטב השמנת. <br>
+                מפזרים מעל גבינה צהובה ומכניסים לתנור בחום 200 מעלות 10-15 דקות עד שהגבינה נמסה ומזהיבה.
+    
+            </p>
+    </div>
+    
+    <div id="publication">
+        <label>תרצה דופרא 22/11/2022 19:00</label>
+        <div class="box">
+            <input type="checkbox"id="checkbox" />
+            <div class="menu">
+              <a href="#">
+                <div class="menuItems">
+                  <i class="fab fa-whatsapp"></i>
+                </div>
+              </a>
+              <a href="#">
+                <div class="menuItems">
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </a>
+              <a href="#">
+                <div class="menuItems">
+                  <i class="fab fa-facebook"></i>
+                </div>
+              </a>
+              <a href="#">
+                <div class="menuItems">
+                  <i class="fab fa-twitter"></i>
+                </div>
+              </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="testbox">
+      <form action="/">
+        <input class="first-name" type="text" name="name" placeholder="מיכל" />
+        <input class="first-name" type="text" placeholder="user@gmail.com"/>
+        <textarea rows="5" placeholder="ספרו לנו איך יצא"></textarea>
+        <div class="btn-block">
+          <button type="submit" href="#">שלח תגובה</button>
+        </div>
+      </form>
+    </div>
+</body>
+</html>

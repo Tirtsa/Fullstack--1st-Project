@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>פסטה מוקרמת</title>
-    <link href="./recipe_style.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>פסטה מוקרמת</title>
+      <link href="./styles/recipe_style.css" rel="stylesheet"/>
+      <link href="./styles/nav.css" rel="stylesheet"/>
+      <link href="./styles/comment.css" rel="stylesheet"/>    
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav >
+      <div class="topnav" id="myTopnav">
+          <a href="index.html">בית</a>
+          <a href="#">בשרי</a>
+          <a href="#">חלבי</a>
+          <a href="#">קינוחים</a>
+          <a href="#">ארוחות מהירות</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+          </a>
+      </div>
+    </nav>
+    
     <div id="title">
         <h1>פסטה מוקרמת בשמנת ופטריות</h1>
         <h2>פסטה מהמטבח האיטלקי, עשירה וקלה להכנה</h2>
@@ -75,12 +91,12 @@
                   <i class="fab fa-instagram"></i>
                 </div>
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2פסטה_מוקרמת.html%2F">
                 <div class="menuItems">
                   <i class="fab fa-facebook"></i>
                 </div>
               </a>
-              <a href="#">
+              <a href=" https://twitter.com/intent/tweet?url=https%3A%2F%2פסטה_מוקרמת.html%2F">
                 <div class="menuItems">
                   <i class="fab fa-twitter"></i>
                 </div>
@@ -89,7 +105,30 @@
         </div>
     </div>
 
+    <div class="comment">
+      
+      <form action="/">
+        <label id="comment_title">ניסית להכין ? נשמח לשמוע את דעתך</label>
+        <input type="text" name="name" placeholder="שם" />
+        <input type="text" name="email" placeholder="כתובת מייל"/>
+        <textarea rows="5" placeholder="שתף אותנו בחוויה"></textarea>
+        <div class="btn-block">
+          <button type="submit" href="#">שלח תגובה</button>
+        </div>
+      </form>
+    </div>
     
-    
-</body>
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+    </script>
+
+  </body>
 </html>
