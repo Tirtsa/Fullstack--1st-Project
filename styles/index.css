@@ -1,3 +1,9 @@
+h1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blueviolet;
+  font-weight: 300;
+  font-size: 30px;
+}
 
 h2, h3 {
   text-align: right;
@@ -11,6 +17,7 @@ h2{
   border-bottom: 1px solid blueviolet;
   margin-right: 100px;
   margin-left: 100px;
+  margin-bottom: 100px;
 }
 
 /*gallery - images */
@@ -56,11 +63,10 @@ h2{
   padding: auto;
   text-align: center;
   font-weight: lighter;
-  color:blue;
 }
 
 .desc h1:hover{
-    color: blueviolet;
+    color: plum;
 }
 
 .banner-title{
@@ -70,8 +76,10 @@ h2{
   margin: 10px;
 }
 
-.banner-title:hover{
-  color: blueviolet;
+.banner-title img:hover{
+  transform: scale(1.2);
+  transition: 1s ease-in-out;
+  transition: 1s ease-out;
 }
 
 @media screen and (max-width: 600px) {
