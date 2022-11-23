@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>מרק כתום</title>
+      <link href="./styles/recipe_style.css" rel="stylesheet"/>
+      <link href="./styles/nav.css" rel="stylesheet"/>
+      <link href="./styles/comment.css" rel="stylesheet"/>    
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav >
+      <div class="topnav" id="myTopnav">
+          <a href="index.html">בית</a>
+          <a href="index.html#bassari">בשרי</a>
+          <a href="index.html#chalavi">חלבי</a>
+          <a href="index.html#dessert">קינוחים</a>
+          <a href="index.html#">ארוחות מהירות</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+          </a>
+      </div>
+    </nav>
+    
+    <div id="title">
+        <h1>מרק כתום</h1>
+        <h2>בחורף, כשהערב יורד והגשם בחוץ, זה זמן נפלא לארוחת ערב משפחתית עם מרק כתום חמים מירקות 
+            כתומים טריים ועשירים בבטא קארוטן, החיוני למערכת החיסונית</h2>
+        <img src="./images/soap.jpg" alt="מרק כתום" />
+    </div>
+    
+
+    <div id="recipe-details">
+      <table>
+        <tr>
+          <th>רמת קושי</th>
+          <th>זמן הכנה</th>
+          <th>מס' מנות</th>
+          <th>סוג</th>
+        </tr>
+        <tr>
+          <td>קל</td>
+          <td>80-95 דקות</td>
+          <td>4-5</td>
+          <td>חלבי</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="grid-container">
+      <div class = "steps">
+        <h4>: אופן הכנה</h4>
+        <p>
+            בסיר גדול מחממים שמן זית ומטגנים את הבצל כעשרים דקות עד שהוא מתרכך ומזהיב. לא ממהרים? טגנו את הבצל על אש נמוכה חצי שעה.<br>
+            בינתיים מקלפים את כל הירקות וחותכים לקוביות גדולות.<br>
+            מוסיפים את כל התבלינים ומטגנים כדקה.<br>
+            מוסיפים את כל הירקות ומערבבים היטב כשתי דקות.<br> 
+            מוסיפים את המים הרותחים עד גובה הירקות ולא יותר. כ- 3 כוסות.<br>
+            מביאים לרתיחה, מנמיכים לאש קטנה ומבשלים עם מכסה כשעה עד שהירקות רכים מאד.<br>
+            טוחנים את המרק בבלנדר מוט, טועמים ומוסיפים מלח ופלפל לפי הטעם.<br>
+            אם המרק סמיך מידי מוסיפים עוד קצת מים רותחים וטוחנים שוב.<br>
+            מוסיפים קרם קוקוס אם רוצים (ובמקרה כזה לא מדללים עם מים).<br>
+        </p>
+      </div>
+
+      <div class="ingredients">
+          <h4>: המצרכים</h4>
+          <ul>
+              <li>פסטה מבושלת (כחצי חבילת פסטה, 250 גרם לפני בישול)</li>
+              <li>מיכל שמנת מתוקה/ שמנת לבישול (250 מ”ל)</li>
+              <li>סלסלת פטריות טריות חתוכות גס</li>
+              <li>1 בצל קצוץ דק</li>
+              <li>100 גרם גבינת פרמזן מפוררת</li>
+              <li>100 גרם גבינה צהובה מגורדת</li>
+              <li>תיבול: מלח ופלפל שחור</li>
+          </ul>
+      </div>
+    </div>
+    
+    <div id="publication">
+      <label>תרצה דופרא 22/11/2022 19:00</label>
+      <div class="box">
+        <input type="checkbox"id="checkbox" />
+        <div class="menu">
+          <a href="#">
+            <div class="menuItems">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+          </a>
+          <a href="#">
+            <div class="menuItems">
+              <i class="fab fa-instagram"></i>
+            </div>
+          </a>
+          <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2פסטה_מוקרמת.html%2F">
+            <div class="menuItems">
+              <i class="fab fa-facebook"></i>
+            </div>
+          </a>
+          <a href=" https://twitter.com/intent/tweet?url=https%3A%2F%2פסטה_מוקרמת.html%2F">
+            <div class="menuItems">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="comment">
+      
+      <form action="/">
+        <label id="comment_title">ניסית להכין ? נשמח לשמוע את דעתך</label>
+        <input type="text" name="name" placeholder="שם" />
+        <input type="text" name="email" placeholder="כתובת מייל"/>
+        <textarea rows="5" placeholder="שתף אותנו בחוויה"></textarea>
+        <div class="btn-block">
+          <button type="submit" href="#">שלח תגובה</button>
+        </div>
+      </form>
+    </div>
+    
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+          }
+      }
+    </script>
+
+  </body>
+</html>

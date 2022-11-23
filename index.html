@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/nav.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
@@ -12,9 +13,9 @@
     <nav >
         <div class="topnav" id="myTopnav">
             <a href="index.html" class="active">בית</a>
-            <a href="#">בשרי</a>
-            <a href="#">חלבי</a>
-            <a href="#">קינוחים</a>
+            <a href="#bassari">בשרי</a>
+            <a href="#chalavi">חלבי</a>
+            <a href="#dessert">קינוחים</a>
             <a href="#">ארוחות מהירות</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
@@ -25,69 +26,112 @@
     <div class="banner-title">
         <h1>T&M</h1>
     </div>
-    <div class="contatiner">
-        <a href="./chalavi.html" alt="pasta">
-            <div class="gallery-item">
-                <div class="image-style">
-                    <img src="images/pasta-moukremet.jpg" alt="פסטה">
+    <div id="bassari">
+        <h2>ארוחות בשריות</h2>
+        <div class="container">
+            <a href="./סנדוויץ_בשרי.html" alt="sandwich">
+                <div class="gallery-item">
+                    <div class="image-style">
+                        <img src="images/sandwich.jpg" alt="טורטייה">
+                    </div>
+                    <div class="desc">
+                        <h3>טורטייה בשרית</h3>
+                    </div>
                 </div>
-                <div class="desc">
-                    <h1>ארוחות חלביות</h1>
+            </a>
+            <a href="./עוף_בקארי.html" alt="chicken">
+                <div class="gallery-item">
+                    <div class="image-style">
+                        <img src="images/chicken.jpg" alt="עוף בקארי">
+                    </div>
+                    <div class="desc">
+                        <h3>עוף בקארי</h3>
+                    </div>
                 </div>
-            </div>
-        </a>
-        <a href="./pancack.html" alt="pasta">
-            <div class="gallery-item">
-                <div class="image-style">
-                    <img src="images/pancacke.jpg" alt="פנקייק">
+            </a>
+            <a href="./פשטידה.html" alt="pashtida">
+                <div class="gallery-item">
+                    <div class="image-style">
+                        <img src="images/pashtida.jpg" alt="פשטידה">
+                    </div>
+                    <div class="desc">
+                        <h3>פשטידה</h3>
+                    </div>
                 </div>
-                <div class="desc">
-                    <h1>קינוחים</h1>
-                </div>
-            </div>
-        </a>
-        <a href="./sandwich.html" alt="pasta">
-            <div class="gallery-item">
-                <div class="image-style">
-                    <img src="images/sandwich.jpg" alt="סנדוויץ">
-                </div>
-                <div class="desc">
-                    <h1>ארוחות בשריות</h1>
-                </div>
-            </div>
-        </a>
-        <a href="pasta.html" alt="pasta">
-            <div class="gallery-item">
-                <div class="image-style">
-                    <img src="images/soap.jpg" alt="">
-                </div>
-                <div class="desc">
-                    <h1>מתכונים מהירים</h1>
-                </div>
-            </div>
-        </a>
-        <a href="pasta.html" alt="pasta">
-            <div class="gallery-item">
-                <div class="image-style">
-                    <img src="images/pancacke.jpg" alt="">
-                </div>
-                <div class="desc">
-                    <h1>פנקייק חלומי</h1>
-                </div>
-            </div>
-        </a>
-        <a href="pasta.html" alt="pasta">
-            <div class="gallery-item">
-                <a target="_blank" href="#"></a>
-                <div class="image-style">
-                    <img src="images/sandwich.jpg" alt="">
-                </div>
-                <div class="desc">
-                    <h1>פנקייק חלומי</h1>
-                </div>
-            </div>
-        </a>
+            </a>
+        </div>
     </div>
+    <div id="chalavi">
+        <h2>ארוחות חלביות</h2>
+        <div class="container">
+            <a href="./פסטה_מוקרמת.html" alt="pasta">
+                <div class="gallery-item">
+                    <div class="image-style">
+                        <img src="images/pasta-moukremet.jpg" alt="פסטה">
+                    </div>
+                    <div class="desc">
+                        <h3>פסטה מוקרמת</h3>
+                    </div>
+                </div>
+            </a>
+            <a href="./פיצה_ביתית.html" alt="pizza">
+                <div class="gallery-item">
+                    <div class="image-style">
+                        <img src="images/pizza.jpg" alt="פיצה">
+                    </div>
+                    <div class="desc">
+                        <h3>פיצה ביתית</h3>
+                    </div>
+                </div>
+            </a>
+            <a href="./מרק_כתום.html" alt="soap">
+                <div class="gallery-item">
+                    <div class="image-style">
+                        <img src="images/soap.jpg" alt="מרק">
+                    </div>
+                    <div class="desc">
+                        <h3>מרק כתום</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="dessert">
+        <h2>קינוחים</h2>
+        <div class="container">
+            <a href="./מוס_תפוזים.html" alt="mousse">
+                <div class="gallery-item">
+                    <div class="image-style">
+                        <img src="images/orange_mousse.jpg" alt="מוס">
+                    </div>
+                    <div class="desc">
+                        <h3>מוס תפוזים וקצפת</h3>
+                    </div>
+                </div>
+            </a>
+            <a href="./פנקייק_חלומי.html" alt="pancake">
+                <div class="gallery-item">
+                    <div class="image-style">
+                        <img src="images/pancacke.jpg" alt="פנקייק">
+                    </div>
+                    <div class="desc">
+                        <h3>פנקייק חלומי</h3>
+                    </div>
+                </div>
+            </a>
+            <a href="./עוגת_שוקולד_שקדים.html" alt="chocolate_cake">
+                <div class="gallery-item">
+                    <div class="image-style">
+                        <img src="images/chocolate_cake.jpg" alt="עוגת שוקולד">
+                    </div>
+                    <div class="desc">
+                        <h3>עוגת שוקולד ושקדים</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
     <script>
         /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
         function myFunction() {

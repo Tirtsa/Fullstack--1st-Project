@@ -1,12 +1,27 @@
 
+h2, h3 {
+  text-align: right;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blueviolet;
+  font-weight: 300;
+}
+
+h2{
+  font-weight: 600;
+  border-bottom: 1px solid blueviolet;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
 /*gallery - images */
-.contatiner{
+.container{
     display: flex;
     align-items:center;
     justify-content: center;
     flex-direction: row;
     margin: 20px 100px 100px 100px;
     flex-wrap: wrap;
+    direction: rtl;
 }
 .gallery-item {
   margin: 10px;
@@ -28,6 +43,7 @@
 .gallery-item img {
   width: 100%;
   height: auto;
+  max-height: min-content;
   cursor: pointer;
 }
 
@@ -59,7 +75,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .contatiner{
+    .container{
         display: flex;
         align-items:center;
         justify-content: center;

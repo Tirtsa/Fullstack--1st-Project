@@ -39,6 +39,15 @@ img{
     width: 100%;
 }
 
+iframe{
+  margin: 50px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 table {
     text-align: center;
     margin-left: auto;
@@ -46,6 +55,7 @@ table {
     margin-top: 25px;
     border:none;
     border-collapse: collapse;
+    direction: rtl;
 }
 
 table th, td {
@@ -54,6 +64,7 @@ table th, td {
     padding-left: 15px;
     border-left: 1px solid blueviolet;
     text-align: center;
+    
 }
 
 table th, td:last-child {
@@ -71,7 +82,7 @@ ul{
     margin-top: 50px;
 }
 
-.steps{
+#steps{
     grid-column-start:2 ;
     grid-column-end: 3;
 }
@@ -167,3 +178,29 @@ ul{
   .fa-twitter {
     color: #1da1f2;
   }
+
+  /*responsive elements*/
+  @media screen and (max-width: 600px) {
+    img{
+      border: 0.5px solid black;
+      border-radius: 1%;
+      border-color: orange;
+      display: block;
+      margin-left: auto;
+      margin-right: 0;
+      width: 100%;
+      height: auto;
+  }
+  
+  #publication{
+    display: flex;
+    direction: rtl;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid blueviolet;
+    border-bottom: 1px solid blueviolet;
+    margin: 50px 50px 50px 7px;
+    width: 100%;
+  }
+    
+}
