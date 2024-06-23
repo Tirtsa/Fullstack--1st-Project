@@ -1,6 +1,6 @@
 # My First Fullstack Project - culinary static website
 
-![Project Logo](https://github.com/Tirtsa/Fullstack_1st_Project/issues/1#issue-2368866900)
+![logo](https://github.com/Tirtsa/Fullstack_1st_Project/assets/37661158/40ab69e7-0644-468c-bd50-5954a911232c)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -65,13 +65,13 @@ Fullstack_1st_Project/
 ├── ...                     # Other recipes pages
 └── README.md               # Project README file
 ```
-## Project Structure
+## Screenshots
 
 Home page :
 ![FireShot Capture 436 - מ ת מתכונים ותפריטים - ](https://github.com/Tirtsa/Fullstack_1st_Project/assets/37661158/6c56dd6d-d42b-41d8-bd7c-e21fd14d52a0)
 
 Recipe page :
-(https://raw.githubusercontent.com/Tirtsa/Fullstack_1st_Project/master/issues/3#issue-2368886163)
+![FireShot Capture 437 - מוס תפוזים וקצפת - ](https://github.com/Tirtsa/Fullstack_1st_Project/assets/37661158/554453ee-6305-4f57-9458-7d0353afbae5)
 
 ## Contact
 - **Email:** tirtsadupraz@gmail.com
