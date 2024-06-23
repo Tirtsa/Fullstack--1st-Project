@@ -49,6 +49,7 @@ To get started with this project, follow these steps:
 
 ## Project Structure
 
+```sh
 Fullstack_1st_Project/
 ├── icons/                  # Icons used in application
 ├── images/                 # Images files
@@ -68,7 +69,7 @@ Fullstack_1st_Project/
 ## Overview
 
 Home page :
-(https://raw.githubusercontent.com/Tirtsa/Fullstack_1st_Project/master/issues/2#issue-2368885558)
+![FireShot Capture 436 - מ ת מתכונים ותפריטים - ](https://github.com/Tirtsa/Fullstack_1st_Project/assets/37661158/6c56dd6d-d42b-41d8-bd7c-e21fd14d52a0)
 
 Recipe page :
 (https://raw.githubusercontent.com/Tirtsa/Fullstack_1st_Project/master/issues/3#issue-2368886163)
