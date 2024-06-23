@@ -68,10 +68,11 @@ Fullstack_1st_Project/
 ## Overview
 
 Home page :
-(https://github.com/Tirtsa/Fullstack_1st_Project/issues/2#issue-2368885558)
+(https://raw.githubusercontent.com/Tirtsa/Fullstack_1st_Project/master/issues/2#issue-2368885558)
 
 Recipe page :
-(https://github.com/Tirtsa/Fullstack_1st_Project/issues/3#issue-2368886163)
+(https://raw.githubusercontent.com/Tirtsa/Fullstack_1st_Project/master/issues/3#issue-2368886163)
+
 ## Contact
 - **Email:** tirtsadupraz@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/tirtsa-dupraz/
