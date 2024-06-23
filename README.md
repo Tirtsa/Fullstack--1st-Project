@@ -64,9 +64,8 @@ Fullstack_1st_Project/
 ├── recipe2.html            # Project README file
 ├── ...                     # Other recipes pages
 └── README.md               # Project README file
-
-
-## Overview
+```
+## Project Structure
 
 Home page :
 ![FireShot Capture 436 - מ ת מתכונים ותפריטים - ](https://github.com/Tirtsa/Fullstack_1st_Project/assets/37661158/6c56dd6d-d42b-41d8-bd7c-e21fd14d52a0)
