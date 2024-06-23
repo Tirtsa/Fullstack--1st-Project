@@ -4,12 +4,12 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Project Goals](#project-goals)
 - [Features](#features)
+- [Technologies used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [Screenshots](#screenshots)
 - [Contact](#contact)
 
 ## Introduction
